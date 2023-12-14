@@ -5,8 +5,11 @@
     border-radius: 50px;
     display: block;
    min-height: 30px;
-   min-width: 80px;
+   min-width: 100px;
    margin-bottom: 30px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
 .input:hover,
 .input:focus {
@@ -14,11 +17,21 @@
 }
 .form {
     display: block;
+    border: solid 3px blue;
+    border-radius: 50px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+   background-color: #DDF3F7;
+   padding-top: 10px;
+   padding-bottom: 10px;
 }
 .label {
-    margin-left: 20px;
-  display: block; 
-  font-size: 30px;
+  display: flex; 
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
 }
 .button {
     min-height: 30px;
@@ -29,4 +42,7 @@
     margin-left: 10px;
     font-weight: 600;
     font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

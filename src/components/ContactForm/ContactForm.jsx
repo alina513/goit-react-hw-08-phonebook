@@ -19,8 +19,9 @@ export const ContactForm = () => {
 
       const notify = name =>
         toast.error(`Contact with name '${name}' already exists!`);
-      notify(name);
+        notify(name);
       event.target.reset();
+      
       return;
     }
 

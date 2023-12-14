@@ -4,10 +4,12 @@ const styles = {
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
+      // backgroundColor: '#EBFAAE  ',
+      minWidth: '100%',
     },
     title: {
-      fontWeight: 500,
-      fontSize: 48,
+      fontWeight: 600,
+      fontSize: 50,
       textAlign: 'center',
     },
   };
@@ -16,10 +18,7 @@ const styles = {
     return (
       <div style={styles.container}>
         <h1 style={styles.title}>
-          Task manager welcome page{' '}
-          <span role="img" aria-label="Greeting icon">
-            💁‍♀️
-          </span>
+          Welcome to phonebook
         </h1>
       </div>
     );

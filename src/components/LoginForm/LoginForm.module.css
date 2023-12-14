@@ -1,10 +1,23 @@
 .form {
-    width: 320px;
-  }
-  
-  .label {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 16px;
-  }
-  
+  width: 320px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+.input {
+  border: solid 2px blue;
+}
+.button {
+  background-color: aqua;
+  border: solid 2px blue;
+  border-radius: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,12 +1,16 @@
-link {
+.link {
     display: inline-block;
     text-decoration: none;
     padding: 12px;
-    font-weight: 700;
+    font-weight: 600;
     color: #2a363b;
+    border: solid 1px blue;
+    border-radius: 50px;
+    background-color: aqua;
   }
   
-  .link.active {
-    color: #e84a5f;
+  .navigation {
+    display: flex;
+    justify-content:end;
+    gap: 30px;
   }
-  

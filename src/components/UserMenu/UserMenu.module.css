@@ -6,5 +6,10 @@
   
   .username {
     font-weight: 700;
+    color: blue;
   }
-  
+  .button {
+    border: solid 1px blue;
+    background-color: aqua;
+    border-radius: 50px;
+  }

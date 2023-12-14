@@ -2,7 +2,11 @@
     font-size: 30px;
     display: flex;
     margin-bottom: 20px;
-    justify-content: flex-end;
+    justify-content: space-between;
+    border: 3px solid blue;
+    background-color: #DDF3F7;
+    border-radius: 50px;
+    width: 100%;
     
 }
 
@@ -11,7 +15,7 @@
     min-height: 15px;
     min-width: 100px;
     display: block;
-    border: solid 1px black;
+    border: solid 1px blue;
     border-radius: 50px;
 }
 
